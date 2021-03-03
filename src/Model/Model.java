@@ -1,0 +1,25 @@
+package Model;
+
+import java.util.ArrayList;
+import java.util.Comparator;
+
+public class Model {
+
+    private FootballPlayerData fpData;
+
+    public Model() {
+        fpData = new FootballPlayerData();
+
+    }
+
+    public FootballPlayerData getFpData() {
+        return fpData;
+    }
+
+    public void setFpData(FootballPlayerData fpd) {
+        this.fpData = fpd;
+    }
+
+    
+
+}
